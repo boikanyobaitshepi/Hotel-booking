@@ -51,7 +51,7 @@ body{
     content: '';
     width: 50%;
     height: 3px;
-    background-color: blueviolet;
+    background-color: #FF511c;
     display: flex;
     position: relative;
     margin-left: 10px;
