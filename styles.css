@@ -56,3 +56,26 @@ body{
     position: relative;
     margin-left: 10px;
  }
+/* 
+ .nav ul li a:hover{
+    color: #FF511c;
+    transition: 0.5s;
+    } */
+
+    input{
+        padding: 10px 20px;
+        cursor: pointer;
+        font-weight: 600;
+
+    }
+
+.signin{
+     background: transparent;
+     border: none;
+
+    }
+.signup{
+        background-color: #FF511c;
+        color: #ffffff;
+
+    }
