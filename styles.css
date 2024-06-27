@@ -1,8 +1,58 @@
-#weather-app {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-  }
-  
+
+
+::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 100px;
+    background-color: rgb(12, 218, 139);
+
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+
+}
+.nav .logo h1{
+    font-weight: 600;
+    font-family: sans-serif;
+    color: blueviolet;
+}
+
+.nav .logo b{
+    color: brown;
+}
+.nav ul{
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    list-style: none;
+    }
+
+.nav ul li{
+    margin-right: 30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+    }
+ 
+ .nav ul .active::after{
+    content: '';
+    width: 50%;
+    height: 3px;
+    background-color: blueviolet;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+ }
