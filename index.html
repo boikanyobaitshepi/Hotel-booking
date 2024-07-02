@@ -1,68 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Kasi Seaboil</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seafood Business</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <section class="menu">
-        <div class="nav">
-            <!-- <div class="logo"><img src="images/logo.png" alt="logo"></div> -->
-            <div class="logo"><h1>Kasi<b>Seaboil</b></h1><img src="images/logo.png" alt="logo"></div>
-            <ul>
-                <li><a class="active" href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Gallery</a></li>
-            </ul>
-            <div>
-                <input class="singin" type="submit" value="Sign In" name="singin">
-                <input class="singup" type="submit" value="Sign Up" name="signup">
-            </div>
-        </div>
-    </section>
-    <section class="    grid">
-        <div class="content">
-            <div class="content-left">
-                <div class="info">
-                    <!-- <h1>WELCOME TO KASI SEABOIL</h1> -->
-                    <!-- <p>From Ocean to Plate: Experience the Freshest Seafood Today! -->
-                   <h2>Order Your Best <br>SeaFood</h2>
-                   <p>Welcome to Kasi Seaboil <br> where we bring the freshest and finest seafood directly to your table. Our commitment to quality and sustainability ensures that you enjoy the best catch from pristine waters, delivered with utmost care. Whether you're craving succulent shrimp, tender lobster, or flavorful fish, our wide selection caters to all your seafood desires. Dive into a culinary journey with Kasi Seaboil and savor the taste of the ocean like never before.</p>
+  <header>
+    <h1>Seafood Business</h1>
+  </header>
 
-                </div>
-                <button>Explore Food</button>
-            </div>
-            <div class="content-right"><img src="images/3.jpg" alt=""></div>
-        </div>
-    </section>
-    <section class="category">
-        <div class="list-items">
-            <h3>Popular Dishes</h3>
-            <div class="card-list">
-                <div class="card">
-                    <img src="images/" alt="">
-                    <div class="food-title"></div>
-                    <h1>Sea food</h1>
-                </div>
+  <div class="sidebar">
+    <div class="logo">
+      <img src="logo.png" alt="Seafood Business Logo" />
+      <h2>Seafood Business</h2>
+    </div>
+    <div class="social-links">
+      <a href="https://www.facebook.com/SeafoodboilekasiOfficialZA?mibextid=LQQJ4d" target="_blank" class="social-icon">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.tiktok.com/@seafoodboil.ekasi?_t=8nZdHJce51q&_r=1" target="_blank" class="social-icon">
+        <i class="fab fa-tiktok"></i>
+      </a>
+      <a href="https://www.instagram.com/seafoodboilekasi?igsh=dnNybHZpbDR4N3M4" target="_blank" class="social-icon">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </div>
 
-            </div>
-      <div class="bubbles">
-        <img src="images/bubble.png" alt="">
-        <img src="images/bubble.png" alt="">
-        <img src="images/bubble.png" alt="">
-        <img src="images/bubble.png" alt="">
-        <img src="images/bubble.png" alt="">
-        <img src="images/bubble.png" alt="">
-        <img src="images/bubble.png" alt="">
-        <!-- <img src="images/bubble.png" alt=""> -->
-        <!-- <img src="images/bubble.png" alt=""> -->
-        <!-- <img src="images/bubble.png" alt=""> -->
+  <div class="content">
+    <!-- About Us Section -->
+    <section class="about-us">
+      <h2>About Us</h2>
+      <p>Welcome to our Seafood Business! We pride ourselves on offering the freshest and most delicious seafood in town. Our mission is to provide a unique dining experience with our signature seafood dishes and exceptional service.</p>
+    </section>
+
+    <!-- Products and Services Section -->
+    <section class="products-services">
+      <h2>Products and Services</h2>
+      <div class="product">
+        <h3>Seafood Boils</h3>
+        <p>Our signature dish, featuring a variety of seafood such as crab, lobster, shrimp, and mussels, cooked to perfection with our special blend of spices and seasonings.</p>
       </div>
-        </div>
+      <div class="product">
+        <h3>Korean Fried Chicken</h3>
+        <p>A crispy and flavorful alternative for those who prefer poultry, prepared using authentic Korean recipes.</p>
+      </div>
+      <div class="product">
+        <h3>Mac and Cheese</h3>
+        <p>A comforting and creamy classic that appeals to all age groups, perfect for those looking for a non-seafood option.</p>
+      </div>
+      <div class="product">
+        <h3>Tacos</h3>
+        <p>A versatile and delicious choice, offering both seafood and non-seafood fillings to cater to diverse tastes.</p>
+      </div>
     </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-us">
+      <h2>Contact Us</h2>
+      <form action="mailto:boikanyobaitshepi@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
 </body>
 </html>
